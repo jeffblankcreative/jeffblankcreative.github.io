@@ -91,3 +91,6 @@ a{color:inherit;text-decoration:none}
 /* never show the native play overlay on tiles */
 .tile video{pointer-events:none}
 .tile video::-webkit-media-controls,.tile video::-webkit-media-controls-panel,.tile video::-webkit-media-controls-overlay-play-button,.tile video::-webkit-media-controls-start-playback-button{display:none!important;-webkit-appearance:none;opacity:0}
+/* every tile square (Jeff, Oct 29) */
+.grid{grid-auto-rows:auto}
+.tile,.tile.tall,.tile.fill-last{aspect-ratio:1/1;grid-row:auto;grid-column:auto}
