@@ -43,10 +43,15 @@
     for (const s of v.querySelectorAll('source[data-src]')) s.src = s.dataset.src;
     v.load();
   };
+  const tryPlay = v => { v.muted = true; v.defaultMuted = true; v.playsInline = true; const p = v.play(); if (p) p.catch(() => {}); };
+  // iPhone Low Power Mode / data saver can block autoplay: start everything on the first touch or scroll
+  const kick = () => document.querySelectorAll('.tile video[data-loaded]').forEach(v => { if (v.paused) tryPlay(v); });
+  ['touchstart', 'pointerdown', 'scroll'].forEach(ev => addEventListener(ev, kick, { passive: true }));
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) kick(); });
   const io = new IntersectionObserver(entries => {
     for (const e of entries) {
       const v = e.target;
-      if (e.isIntersecting) { load(v); if (!reduce) v.play().catch(() => {}); }
+      if (e.isIntersecting) { load(v); tryPlay(v); }
       else if (v.dataset.loaded) v.pause();
     }
   }, { rootMargin: '300px 0px' });
