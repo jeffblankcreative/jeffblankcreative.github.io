@@ -79,7 +79,8 @@ a{color:inherit;text-decoration:none}
 @media (max-width:860px){:root{--cols:3}}
 @media (max-width:600px){
   :root{--cols:2;--gap:2px}
-  .top{flex-direction:column;align-items:flex-start;gap:14px;padding-bottom:12px}
+  .top{flex-direction:column;align-items:stretch;gap:12px;padding-bottom:12px}
+  .tabs{align-self:flex-end;justify-content:flex-end}
   .name{font-size:33px}
   .contact{grid-template-columns:1fr}
   .contact-links{justify-self:start}

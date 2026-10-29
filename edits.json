@@ -55,7 +55,90 @@
    "webm": "media/u261029021108.webm",
    "poster": "media/u261029021108.jpg",
    "w": 360,
-   "h": 640
+   "h": 360,
+   "srcW": 360,
+   "srcH": 640,
+   "framing": {
+    "shots": 15,
+    "method": "faces+saliency",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      38.8
+     ],
+     [
+      6,
+      "faces",
+      34.5
+     ],
+     [
+      14,
+      "faces",
+      37.7
+     ],
+     [
+      20,
+      "faces",
+      38.0
+     ],
+     [
+      27,
+      "faces",
+      39.4
+     ],
+     [
+      35,
+      "faces",
+      28.1
+     ],
+     [
+      44,
+      "faces",
+      31.1
+     ],
+     [
+      50,
+      "faces",
+      39.7
+     ],
+     [
+      72,
+      "faces",
+      36.7
+     ],
+     [
+      78,
+      "faces",
+      38.8
+     ],
+     [
+      86,
+      "saliency",
+      39.7
+     ],
+     [
+      98,
+      "faces",
+      37.5
+     ],
+     [
+      115,
+      "faces",
+      39.1
+     ],
+     [
+      131,
+      "faces",
+      41.2
+     ],
+     [
+      140,
+      "faces",
+      40.5
+     ]
+    ]
+   }
   },
   {
    "id": "u261029021101",
@@ -68,8 +151,62 @@
    "mp4": "media/u261029021101.mp4",
    "webm": "media/u261029021101.webm",
    "poster": "media/u261029021101.jpg",
-   "w": 360,
-   "h": 640
+   "w": 200,
+   "h": 200,
+   "srcW": 360,
+   "srcH": 640,
+   "framing": {
+    "shots": 8,
+    "method": "faces",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      62.8
+     ],
+     [
+      14,
+      "faces",
+      63.3
+     ],
+     [
+      32,
+      "faces",
+      49.7
+     ],
+     [
+      55,
+      "faces",
+      52.8
+     ],
+     [
+      78,
+      "faces",
+      66.4
+     ],
+     [
+      95,
+      "faces",
+      54.4
+     ],
+     [
+      118,
+      "faces",
+      68.9
+     ],
+     [
+      133,
+      "faces",
+      57.2
+     ]
+    ],
+    "active": [
+     0,
+     220,
+     360,
+     200
+    ]
+   }
   },
   {
    "id": "u261029021051",
@@ -83,7 +220,50 @@
    "webm": "media/u261029021051.webm",
    "poster": "media/u261029021051.jpg",
    "w": 480,
-   "h": 854
+   "h": 480,
+   "srcW": 480,
+   "srcH": 854,
+   "framing": {
+    "shots": 7,
+    "method": "faces+saliency",
+    "per_shot": [
+     [
+      0,
+      "saliency",
+      50.0
+     ],
+     [
+      8,
+      "faces",
+      45.6
+     ],
+     [
+      18,
+      "faces",
+      31.4
+     ],
+     [
+      41,
+      "faces",
+      28.1
+     ],
+     [
+      82,
+      "faces",
+      32.6
+     ],
+     [
+      91,
+      "faces",
+      32.8
+     ],
+     [
+      98,
+      "faces",
+      28.6
+     ]
+    ]
+   }
   },
   {
    "id": "u261029021041",
@@ -97,7 +277,80 @@
    "webm": "media/u261029021041.webm",
    "poster": "media/u261029021041.jpg",
    "w": 480,
-   "h": 854
+   "h": 480,
+   "srcW": 480,
+   "srcH": 854,
+   "framing": {
+    "shots": 13,
+    "method": "faces",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      28.1
+     ],
+     [
+      6,
+      "faces",
+      37.2
+     ],
+     [
+      24,
+      "faces",
+      28.1
+     ],
+     [
+      34,
+      "faces",
+      28.1
+     ],
+     [
+      46,
+      "faces",
+      31.0
+     ],
+     [
+      56,
+      "faces",
+      28.8
+     ],
+     [
+      68,
+      "faces",
+      28.1
+     ],
+     [
+      87,
+      "faces",
+      31.7
+     ],
+     [
+      97,
+      "faces",
+      28.1
+     ],
+     [
+      105,
+      "faces",
+      32.7
+     ],
+     [
+      113,
+      "faces",
+      28.1
+     ],
+     [
+      133,
+      "faces",
+      28.1
+     ],
+     [
+      140,
+      "faces",
+      28.1
+     ]
+    ]
+   }
   },
   {
    "id": "u261029021032",
@@ -111,7 +364,55 @@
    "webm": "media/u261029021032.webm",
    "poster": "media/u261029021032.jpg",
    "w": 480,
-   "h": 854
+   "h": 480,
+   "srcW": 480,
+   "srcH": 854,
+   "framing": {
+    "shots": 8,
+    "method": "faces",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      47.8
+     ],
+     [
+      11,
+      "faces",
+      37.4
+     ],
+     [
+      40,
+      "faces",
+      71.9
+     ],
+     [
+      49,
+      "faces",
+      62.9
+     ],
+     [
+      59,
+      "faces",
+      39.6
+     ],
+     [
+      81,
+      "faces",
+      41.3
+     ],
+     [
+      103,
+      "faces",
+      51.9
+     ],
+     [
+      109,
+      "faces",
+      33.4
+     ]
+    ]
+   }
   },
   {
    "id": "u261029021023",
@@ -125,7 +426,45 @@
    "webm": "media/u261029021023.webm",
    "poster": "media/u261029021023.jpg",
    "w": 480,
-   "h": 854
+   "h": 480,
+   "srcW": 480,
+   "srcH": 854,
+   "framing": {
+    "shots": 6,
+    "method": "faces+persons",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      56.7
+     ],
+     [
+      37,
+      "persons",
+      65.8
+     ],
+     [
+      45,
+      "faces",
+      28.1
+     ],
+     [
+      57,
+      "persons",
+      28.1
+     ],
+     [
+      73,
+      "faces",
+      44.3
+     ],
+     [
+      125,
+      "faces",
+      36.3
+     ]
+    ]
+   }
   },
   {
    "id": "u261029021014",
@@ -139,7 +478,60 @@
    "webm": "media/u261029021014.webm",
    "poster": "media/u261029021014.jpg",
    "w": 360,
-   "h": 640
+   "h": 360,
+   "srcW": 360,
+   "srcH": 640,
+   "framing": {
+    "shots": 9,
+    "method": "faces+persons+saliency",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      50.0
+     ],
+     [
+      8,
+      "persons",
+      49.2
+     ],
+     [
+      25,
+      "faces",
+      41.4
+     ],
+     [
+      45,
+      "saliency",
+      50.0
+     ],
+     [
+      61,
+      "faces",
+      41.7
+     ],
+     [
+      102,
+      "faces",
+      38.6
+     ],
+     [
+      113,
+      "persons",
+      28.1
+     ],
+     [
+      129,
+      "faces",
+      58.8
+     ],
+     [
+      138,
+      "faces",
+      46.7
+     ]
+    ]
+   }
   },
   {
    "id": "u261029015455",
@@ -152,8 +544,56 @@
    "mp4": "media/u261029015455.mp4",
    "webm": "media/u261029015455.webm",
    "poster": "media/u261029015455.jpg",
-   "w": 480,
-   "h": 270
+   "w": 270,
+   "h": 270,
+   "srcW": 480,
+   "srcH": 270,
+   "framing": {
+    "shots": 8,
+    "method": "faces+persons",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      64.0
+     ],
+     [
+      7,
+      "faces",
+      63.1
+     ],
+     [
+      19,
+      "faces",
+      40.8
+     ],
+     [
+      89,
+      "faces",
+      28.1
+     ],
+     [
+      97,
+      "faces",
+      65.2
+     ],
+     [
+      107,
+      "persons",
+      46.9
+     ],
+     [
+      115,
+      "faces",
+      65.4
+     ],
+     [
+      121,
+      "faces",
+      70.0
+     ]
+    ]
+   }
   },
   {
    "id": "u01",
@@ -165,8 +605,61 @@
    "mp4": "media/u01.mp4",
    "webm": "media/u01.webm",
    "poster": "media/u01.jpg",
-   "w": 472,
-   "h": 266
+   "w": 266,
+   "h": 266,
+   "srcW": 472,
+   "srcH": 266,
+   "framing": {
+    "shots": 9,
+    "method": "faces+persons+saliency",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      71.8
+     ],
+     [
+      35,
+      "faces",
+      52.5
+     ],
+     [
+      50,
+      "persons",
+      36.2
+     ],
+     [
+      57,
+      "persons",
+      28.2
+     ],
+     [
+      81,
+      "faces",
+      57.2
+     ],
+     [
+      97,
+      "saliency",
+      51.5
+     ],
+     [
+      105,
+      "faces",
+      60.8
+     ],
+     [
+      114,
+      "faces",
+      56.1
+     ],
+     [
+      138,
+      "faces",
+      45.1
+     ]
+    ]
+   }
   },
   {
    "id": "u02",
@@ -179,7 +672,13 @@
    "webm": "media/u02.webm",
    "poster": "media/u02.jpg",
    "w": 480,
-   "h": 480
+   "h": 480,
+   "srcW": 480,
+   "srcH": 480,
+   "framing": {
+    "method": "square-source",
+    "shots": 1
+   }
   },
   {
    "id": "u03",
@@ -191,8 +690,71 @@
    "mp4": "media/u03.mp4",
    "webm": "media/u03.webm",
    "poster": "media/u03.jpg",
-   "w": 480,
-   "h": 360
+   "w": 360,
+   "h": 360,
+   "srcW": 480,
+   "srcH": 360,
+   "framing": {
+    "shots": 11,
+    "method": "faces+persons",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      51.2
+     ],
+     [
+      14,
+      "persons",
+      40.8
+     ],
+     [
+      26,
+      "faces",
+      55.4
+     ],
+     [
+      49,
+      "faces",
+      51.0
+     ],
+     [
+      55,
+      "faces",
+      48.5
+     ],
+     [
+      67,
+      "faces",
+      54.0
+     ],
+     [
+      74,
+      "faces",
+      62.5
+     ],
+     [
+      86,
+      "faces",
+      50.4
+     ],
+     [
+      114,
+      "faces",
+      49.0
+     ],
+     [
+      122,
+      "faces",
+      44.0
+     ],
+     [
+      140,
+      "faces",
+      44.6
+     ]
+    ]
+   }
   },
   {
    "id": "u04",
@@ -204,8 +766,41 @@
    "mp4": "media/u04.mp4",
    "webm": "media/u04.webm",
    "poster": "media/u04.jpg",
-   "w": 450,
-   "h": 254
+   "w": 254,
+   "h": 254,
+   "srcW": 450,
+   "srcH": 254,
+   "framing": {
+    "shots": 5,
+    "method": "faces+persons+saliency",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      51.1
+     ],
+     [
+      54,
+      "persons",
+      51.1
+     ],
+     [
+      88,
+      "saliency",
+      51.1
+     ],
+     [
+      117,
+      "saliency",
+      46.0
+     ],
+     [
+      135,
+      "saliency",
+      47.6
+     ]
+    ]
+   }
   },
   {
    "id": "u05",
@@ -217,8 +812,41 @@
    "mp4": "media/u05.mp4",
    "webm": "media/u05.webm",
    "poster": "media/u05.jpg",
-   "w": 250,
-   "h": 142
+   "w": 142,
+   "h": 142,
+   "srcW": 250,
+   "srcH": 142,
+   "framing": {
+    "shots": 5,
+    "method": "faces+persons",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      50.4
+     ],
+     [
+      12,
+      "persons",
+      46.8
+     ],
+     [
+      34,
+      "faces",
+      33.2
+     ],
+     [
+      50,
+      "faces",
+      50.4
+     ],
+     [
+      67,
+      "faces",
+      71.6
+     ]
+    ]
+   }
   },
   {
    "id": "u06",
@@ -230,8 +858,76 @@
    "mp4": "media/u06.mp4",
    "webm": "media/u06.webm",
    "poster": "media/u06.jpg",
-   "w": 400,
-   "h": 226
+   "w": 226,
+   "h": 226,
+   "srcW": 400,
+   "srcH": 226,
+   "framing": {
+    "shots": 12,
+    "method": "faces+persons+saliency",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      62.5
+     ],
+     [
+      22,
+      "faces",
+      51.5
+     ],
+     [
+      29,
+      "faces",
+      37.8
+     ],
+     [
+      43,
+      "persons",
+      50.2
+     ],
+     [
+      50,
+      "faces",
+      49.2
+     ],
+     [
+      62,
+      "faces",
+      52.8
+     ],
+     [
+      82,
+      "faces",
+      60.5
+     ],
+     [
+      96,
+      "faces",
+      49.0
+     ],
+     [
+      106,
+      "faces",
+      51.8
+     ],
+     [
+      115,
+      "faces",
+      62.0
+     ],
+     [
+      122,
+      "faces",
+      57.5
+     ],
+     [
+      134,
+      "saliency",
+      52.5
+     ]
+    ]
+   }
   },
   {
    "id": "u07",
@@ -244,7 +940,13 @@
    "webm": "media/u07.webm",
    "poster": "media/u07.jpg",
    "w": 480,
-   "h": 480
+   "h": 480,
+   "srcW": 480,
+   "srcH": 480,
+   "framing": {
+    "method": "square-source",
+    "shots": 1
+   }
   },
   {
    "id": "u08",
@@ -256,8 +958,41 @@
    "mp4": "media/u08.mp4",
    "webm": "media/u08.webm",
    "poster": "media/u08.jpg",
-   "w": 300,
-   "h": 170
+   "w": 170,
+   "h": 170,
+   "srcW": 300,
+   "srcH": 170,
+   "framing": {
+    "shots": 5,
+    "method": "faces",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      68.7
+     ],
+     [
+      12,
+      "faces",
+      51.0
+     ],
+     [
+      19,
+      "faces",
+      49.0
+     ],
+     [
+      29,
+      "faces",
+      45.7
+     ],
+     [
+      36,
+      "faces",
+      28.3
+     ]
+    ]
+   }
   },
   {
    "id": "u09",
@@ -269,8 +1004,41 @@
    "mp4": "media/u09.mp4",
    "webm": "media/u09.webm",
    "poster": "media/u09.jpg",
-   "w": 200,
-   "h": 114
+   "w": 114,
+   "h": 114,
+   "srcW": 200,
+   "srcH": 114,
+   "framing": {
+    "shots": 5,
+    "method": "faces",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      32.0
+     ],
+     [
+      17,
+      "faces",
+      69.0
+     ],
+     [
+      36,
+      "faces",
+      55.5
+     ],
+     [
+      50,
+      "faces",
+      43.5
+     ],
+     [
+      91,
+      "faces",
+      59.5
+     ]
+    ]
+   }
   },
   {
    "id": "u10",
@@ -282,8 +1050,21 @@
    "mp4": "media/u10.mp4",
    "webm": "media/u10.webm",
    "poster": "media/u10.jpg",
-   "w": 480,
-   "h": 270
+   "w": 270,
+   "h": 270,
+   "srcW": 480,
+   "srcH": 270,
+   "framing": {
+    "shots": 1,
+    "method": "saliency",
+    "per_shot": [
+     [
+      0,
+      "saliency",
+      48.3
+     ]
+    ]
+   }
   },
   {
    "id": "u11",
@@ -295,8 +1076,41 @@
    "mp4": "media/u11.mp4",
    "webm": "media/u11.webm",
    "poster": "media/u11.jpg",
-   "w": 250,
-   "h": 142
+   "w": 142,
+   "h": 142,
+   "srcW": 250,
+   "srcH": 142,
+   "framing": {
+    "shots": 5,
+    "method": "faces",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      55.6
+     ],
+     [
+      19,
+      "faces",
+      34.4
+     ],
+     [
+      43,
+      "faces",
+      71.6
+     ],
+     [
+      82,
+      "faces",
+      71.6
+     ],
+     [
+      106,
+      "faces",
+      59.6
+     ]
+    ]
+   }
   },
   {
    "id": "u12",
@@ -308,8 +1122,31 @@
    "mp4": "media/u12.mp4",
    "webm": "media/u12.webm",
    "poster": "media/u12.jpg",
-   "w": 300,
-   "h": 170
+   "w": 170,
+   "h": 170,
+   "srcW": 300,
+   "srcH": 170,
+   "framing": {
+    "shots": 3,
+    "method": "faces+saliency",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      44.7
+     ],
+     [
+      17,
+      "faces",
+      31.3
+     ],
+     [
+      46,
+      "saliency",
+      48.0
+     ]
+    ]
+   }
   },
   {
    "id": "u13",
@@ -321,8 +1158,46 @@
    "mp4": "media/u13.mp4",
    "webm": "media/u13.webm",
    "poster": "media/u13.jpg",
-   "w": 250,
-   "h": 142
+   "w": 142,
+   "h": 142,
+   "srcW": 250,
+   "srcH": 142,
+   "framing": {
+    "shots": 6,
+    "method": "faces",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      71.6
+     ],
+     [
+      22,
+      "faces",
+      59.2
+     ],
+     [
+      43,
+      "faces",
+      70.0
+     ],
+     [
+      50,
+      "faces",
+      62.4
+     ],
+     [
+      62,
+      "faces",
+      44.0
+     ],
+     [
+      79,
+      "faces",
+      28.4
+     ]
+    ]
+   }
   },
   {
    "id": "u14",
@@ -334,8 +1209,31 @@
    "mp4": "media/u14.mp4",
    "webm": "media/u14.webm",
    "poster": "media/u14.jpg",
-   "w": 250,
-   "h": 142
+   "w": 142,
+   "h": 142,
+   "srcW": 250,
+   "srcH": 142,
+   "framing": {
+    "shots": 3,
+    "method": "faces",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      60.8
+     ],
+     [
+      38,
+      "faces",
+      65.6
+     ],
+     [
+      60,
+      "faces",
+      52.4
+     ]
+    ]
+   }
   },
   {
    "id": "u15",
@@ -348,7 +1246,13 @@
    "webm": "media/u15.webm",
    "poster": "media/u15.jpg",
    "w": 480,
-   "h": 480
+   "h": 480,
+   "srcW": 480,
+   "srcH": 480,
+   "framing": {
+    "method": "square-source",
+    "shots": 1
+   }
   },
   {
    "id": "u16",
@@ -360,8 +1264,31 @@
    "mp4": "media/u16.mp4",
    "webm": "media/u16.webm",
    "poster": "media/u16.jpg",
-   "w": 250,
-   "h": 142
+   "w": 142,
+   "h": 142,
+   "srcW": 250,
+   "srcH": 142,
+   "framing": {
+    "shots": 3,
+    "method": "faces+persons+saliency",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      49.6
+     ],
+     [
+      10,
+      "persons",
+      59.6
+     ],
+     [
+      22,
+      "saliency",
+      60.8
+     ]
+    ]
+   }
   },
   {
    "id": "u17",
@@ -373,8 +1300,26 @@
    "mp4": "media/u17.mp4",
    "webm": "media/u17.webm",
    "poster": "media/u17.jpg",
-   "w": 480,
-   "h": 270
+   "w": 270,
+   "h": 270,
+   "srcW": 480,
+   "srcH": 270,
+   "framing": {
+    "shots": 2,
+    "method": "faces",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      28.1
+     ],
+     [
+      78,
+      "faces",
+      30.8
+     ]
+    ]
+   }
   },
   {
    "id": "u18",
@@ -386,8 +1331,26 @@
    "mp4": "media/u18.mp4",
    "webm": "media/u18.webm",
    "poster": "media/u18.jpg",
-   "w": 480,
-   "h": 270
+   "w": 270,
+   "h": 270,
+   "srcW": 480,
+   "srcH": 270,
+   "framing": {
+    "shots": 2,
+    "method": "faces+saliency",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      52.9
+     ],
+     [
+      49,
+      "saliency",
+      53.5
+     ]
+    ]
+   }
   },
   {
    "id": "u19",
@@ -399,8 +1362,41 @@
    "mp4": "media/u19.mp4",
    "webm": "media/u19.webm",
    "poster": "media/u19.jpg",
-   "w": 480,
-   "h": 270
+   "w": 270,
+   "h": 270,
+   "srcW": 480,
+   "srcH": 270,
+   "framing": {
+    "shots": 5,
+    "method": "faces+persons+saliency",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      47.9
+     ],
+     [
+      22,
+      "faces",
+      32.5
+     ],
+     [
+      55,
+      "faces",
+      56.5
+     ],
+     [
+      91,
+      "persons",
+      51.9
+     ],
+     [
+      130,
+      "saliency",
+      55.6
+     ]
+    ]
+   }
   },
   {
    "id": "u20",
@@ -412,8 +1408,56 @@
    "mp4": "media/u20.mp4",
    "webm": "media/u20.webm",
    "poster": "media/u20.jpg",
-   "w": 250,
-   "h": 142
+   "w": 142,
+   "h": 142,
+   "srcW": 250,
+   "srcH": 142,
+   "framing": {
+    "shots": 8,
+    "method": "faces+persons",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      51.2
+     ],
+     [
+      7,
+      "faces",
+      52.4
+     ],
+     [
+      17,
+      "faces",
+      48.4
+     ],
+     [
+      36,
+      "faces",
+      52.4
+     ],
+     [
+      60,
+      "faces",
+      49.6
+     ],
+     [
+      79,
+      "faces",
+      47.6
+     ],
+     [
+      86,
+      "persons",
+      48.4
+     ],
+     [
+      94,
+      "persons",
+      51.6
+     ]
+    ]
+   }
   },
   {
    "id": "u21",
@@ -425,8 +1469,46 @@
    "mp4": "media/u21.mp4",
    "webm": "media/u21.webm",
    "poster": "media/u21.jpg",
-   "w": 480,
-   "h": 270
+   "w": 270,
+   "h": 270,
+   "srcW": 480,
+   "srcH": 270,
+   "framing": {
+    "shots": 6,
+    "method": "faces+persons+saliency",
+    "per_shot": [
+     [
+      0,
+      "persons",
+      30.4
+     ],
+     [
+      22,
+      "persons",
+      44.8
+     ],
+     [
+      36,
+      "saliency",
+      48.5
+     ],
+     [
+      53,
+      "saliency",
+      54.4
+     ],
+     [
+      79,
+      "faces",
+      46.7
+     ],
+     [
+      142,
+      "saliency",
+      43.8
+     ]
+    ]
+   }
   },
   {
    "id": "u22",
@@ -438,8 +1520,27 @@
    "mp4": "media/u22.mp4",
    "webm": "media/u22.webm",
    "poster": "media/u22.jpg",
-   "w": 480,
-   "h": 270
+   "w": 246,
+   "h": 246,
+   "srcW": 480,
+   "srcH": 270,
+   "framing": {
+    "shots": 1,
+    "method": "faces",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      34.2
+     ]
+    ],
+    "active": [
+     0,
+     12,
+     480,
+     247
+    ]
+   }
   },
   {
    "id": "u23",
@@ -451,8 +1552,26 @@
    "mp4": "media/u23.mp4",
    "webm": "media/u23.webm",
    "poster": "media/u23.jpg",
-   "w": 480,
-   "h": 270
+   "w": 270,
+   "h": 270,
+   "srcW": 480,
+   "srcH": 270,
+   "framing": {
+    "shots": 2,
+    "method": "persons+saliency",
+    "per_shot": [
+     [
+      0,
+      "persons",
+      71.9
+     ],
+     [
+      43,
+      "saliency",
+      47.7
+     ]
+    ]
+   }
   },
   {
    "id": "u24",
@@ -464,8 +1583,41 @@
    "mp4": "media/u24.mp4",
    "webm": "media/u24.webm",
    "poster": "media/u24.jpg",
-   "w": 480,
-   "h": 252
+   "w": 252,
+   "h": 252,
+   "srcW": 480,
+   "srcH": 252,
+   "framing": {
+    "shots": 5,
+    "method": "faces+persons",
+    "per_shot": [
+     [
+      0,
+      "persons",
+      47.1
+     ],
+     [
+      38,
+      "persons",
+      53.5
+     ],
+     [
+      86,
+      "faces",
+      39.0
+     ],
+     [
+      110,
+      "faces",
+      47.7
+     ],
+     [
+      134,
+      "faces",
+      48.5
+     ]
+    ]
+   }
   },
   {
    "id": "u25",
@@ -477,8 +1629,66 @@
    "mp4": "media/u25.mp4",
    "webm": "media/u25.webm",
    "poster": "media/u25.jpg",
-   "w": 462,
-   "h": 260
+   "w": 260,
+   "h": 260,
+   "srcW": 462,
+   "srcH": 260,
+   "framing": {
+    "shots": 10,
+    "method": "faces+persons+saliency",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      49.6
+     ],
+     [
+      59,
+      "faces",
+      50.9
+     ],
+     [
+      78,
+      "persons",
+      58.2
+     ],
+     [
+      90,
+      "saliency",
+      58.9
+     ],
+     [
+      96,
+      "saliency",
+      57.4
+     ],
+     [
+      108,
+      "saliency",
+      56.5
+     ],
+     [
+      114,
+      "saliency",
+      53.5
+     ],
+     [
+      120,
+      "persons",
+      41.1
+     ],
+     [
+      126,
+      "faces",
+      43.7
+     ],
+     [
+      134,
+      "saliency",
+      56.5
+     ]
+    ]
+   }
   },
   {
    "id": "s01",
@@ -490,8 +1700,31 @@
    "mp4": "media/s01.mp4",
    "webm": "media/s01.webm",
    "poster": "media/s01.jpg",
-   "w": 480,
-   "h": 254
+   "w": 254,
+   "h": 254,
+   "srcW": 480,
+   "srcH": 254,
+   "framing": {
+    "shots": 3,
+    "method": "faces+persons+saliency",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      50.4
+     ],
+     [
+      79,
+      "persons",
+      49.6
+     ],
+     [
+      95,
+      "saliency",
+      47.1
+     ]
+    ]
+   }
   },
   {
    "id": "s02",
@@ -503,8 +1736,51 @@
    "mp4": "media/s02.mp4",
    "webm": "media/s02.webm",
    "poster": "media/s02.jpg",
-   "w": 480,
-   "h": 270
+   "w": 270,
+   "h": 270,
+   "srcW": 480,
+   "srcH": 270,
+   "framing": {
+    "shots": 7,
+    "method": "persons+saliency",
+    "per_shot": [
+     [
+      0,
+      "persons",
+      52.3
+     ],
+     [
+      15,
+      "saliency",
+      47.5
+     ],
+     [
+      34,
+      "saliency",
+      50.6
+     ],
+     [
+      44,
+      "persons",
+      49.8
+     ],
+     [
+      118,
+      "persons",
+      49.6
+     ],
+     [
+      126,
+      "persons",
+      40.2
+     ],
+     [
+      132,
+      "persons",
+      50.0
+     ]
+    ]
+   }
   },
   {
    "id": "s03",
@@ -516,8 +1792,46 @@
    "mp4": "media/s03.mp4",
    "webm": "media/s03.webm",
    "poster": "media/s03.jpg",
-   "w": 480,
-   "h": 202
+   "w": 202,
+   "h": 202,
+   "srcW": 480,
+   "srcH": 202,
+   "framing": {
+    "shots": 6,
+    "method": "faces+saliency",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      42.1
+     ],
+     [
+      6,
+      "faces",
+      79.0
+     ],
+     [
+      34,
+      "faces",
+      51.2
+     ],
+     [
+      49,
+      "saliency",
+      39.0
+     ],
+     [
+      65,
+      "faces",
+      50.8
+     ],
+     [
+      88,
+      "faces",
+      45.6
+     ]
+    ]
+   }
   },
   {
    "id": "s04",
@@ -529,8 +1843,46 @@
    "mp4": "media/s04.mp4",
    "webm": "media/s04.webm",
    "poster": "media/s04.jpg",
-   "w": 426,
-   "h": 240
+   "w": 240,
+   "h": 240,
+   "srcW": 426,
+   "srcH": 240,
+   "framing": {
+    "shots": 6,
+    "method": "faces",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      42.7
+     ],
+     [
+      18,
+      "faces",
+      58.0
+     ],
+     [
+      34,
+      "faces",
+      71.8
+     ],
+     [
+      48,
+      "faces",
+      56.8
+     ],
+     [
+      80,
+      "faces",
+      50.9
+     ],
+     [
+      101,
+      "faces",
+      55.4
+     ]
+    ]
+   }
   },
   {
    "id": "s05",
@@ -542,8 +1894,36 @@
    "mp4": "media/s05.mp4",
    "webm": "media/s05.webm",
    "poster": "media/s05.jpg",
-   "w": 480,
-   "h": 202
+   "w": 202,
+   "h": 202,
+   "srcW": 480,
+   "srcH": 202,
+   "framing": {
+    "shots": 4,
+    "method": "faces+saliency",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      55.2
+     ],
+     [
+      29,
+      "faces",
+      52.9
+     ],
+     [
+      65,
+      "faces",
+      49.2
+     ],
+     [
+      136,
+      "saliency",
+      65.6
+     ]
+    ]
+   }
   },
   {
    "id": "s06",
@@ -555,8 +1935,41 @@
    "mp4": "media/s06.mp4",
    "webm": "media/s06.webm",
    "poster": "media/s06.jpg",
-   "w": 480,
-   "h": 270
+   "w": 270,
+   "h": 270,
+   "srcW": 480,
+   "srcH": 270,
+   "framing": {
+    "shots": 5,
+    "method": "persons+saliency",
+    "per_shot": [
+     [
+      0,
+      "saliency",
+      45.2
+     ],
+     [
+      43,
+      "persons",
+      71.9
+     ],
+     [
+      77,
+      "saliency",
+      55.4
+     ],
+     [
+      104,
+      "saliency",
+      43.8
+     ],
+     [
+      122,
+      "persons",
+      35.8
+     ]
+    ]
+   }
   },
   {
    "id": "s07",
@@ -566,7 +1979,18 @@
    "score": true,
    "source": "still",
    "poster": "media/s07.jpg",
-   "still_reason": "yt-dlp failed: cmd failed: /home/box/.local/bin/yt-dlp --no-playlist -f bv*[vcodec^=avc1][height<=720]/bv*[height<=720]/b[height<=720]/bv*/b -o work/s07/src.%(ext)s --quiet --no-warnings https://www.instagram.com/p/"
+   "still_reason": "yt-dlp failed: cmd failed: /home/box/.local/bin/yt-dlp --no-playlist -f bv*[vcodec^=avc1][height<=720]/bv*[height<=720]/b[height<=720]/bv*/b -o work/s07/src.%(ext)s --quiet --no-warnings https://www.instagram.com/p/",
+   "framing": {
+    "shots": 1,
+    "method": "saliency",
+    "per_shot": [
+     [
+      0,
+      "saliency",
+      49.9
+     ]
+    ]
+   }
   },
   {
    "id": "s08",
@@ -578,8 +2002,36 @@
    "mp4": "media/s08.mp4",
    "webm": "media/s08.webm",
    "poster": "media/s08.jpg",
-   "w": 480,
-   "h": 270
+   "w": 270,
+   "h": 270,
+   "srcW": 480,
+   "srcH": 270,
+   "framing": {
+    "shots": 4,
+    "method": "persons+saliency",
+    "per_shot": [
+     [
+      0,
+      "saliency",
+      52.3
+     ],
+     [
+      47,
+      "saliency",
+      39.8
+     ],
+     [
+      73,
+      "saliency",
+      41.2
+     ],
+     [
+      100,
+      "persons",
+      63.3
+     ]
+    ]
+   }
   },
   {
    "id": "s09",
@@ -591,8 +2043,31 @@
    "mp4": "media/s09.mp4",
    "webm": "media/s09.webm",
    "poster": "media/s09.jpg",
-   "w": 230,
-   "h": 196
+   "w": 196,
+   "h": 196,
+   "srcW": 230,
+   "srcH": 196,
+   "framing": {
+    "shots": 3,
+    "method": "faces+saliency",
+    "per_shot": [
+     [
+      0,
+      "saliency",
+      47.0
+     ],
+     [
+      23,
+      "faces",
+      50.0
+     ],
+     [
+      90,
+      "saliency",
+      57.4
+     ]
+    ]
+   }
   },
   {
    "id": "s10",
@@ -604,8 +2079,21 @@
    "mp4": "media/s10.mp4",
    "webm": "media/s10.webm",
    "poster": "media/s10.jpg",
-   "w": 480,
-   "h": 270
+   "w": 270,
+   "h": 270,
+   "srcW": 480,
+   "srcH": 270,
+   "framing": {
+    "shots": 1,
+    "method": "faces",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      33.5
+     ]
+    ]
+   }
   },
   {
    "id": "s11",
@@ -617,8 +2105,56 @@
    "mp4": "media/s11.mp4",
    "webm": "media/s11.webm",
    "poster": "media/s11.jpg",
-   "w": 480,
-   "h": 270
+   "w": 270,
+   "h": 270,
+   "srcW": 480,
+   "srcH": 270,
+   "framing": {
+    "shots": 8,
+    "method": "faces+persons+saliency",
+    "per_shot": [
+     [
+      0,
+      "persons",
+      42.7
+     ],
+     [
+      21,
+      "saliency",
+      34.6
+     ],
+     [
+      46,
+      "saliency",
+      53.8
+     ],
+     [
+      73,
+      "persons",
+      28.1
+     ],
+     [
+      82,
+      "persons",
+      44.6
+     ],
+     [
+      94,
+      "saliency",
+      54.0
+     ],
+     [
+      106,
+      "faces",
+      57.3
+     ],
+     [
+      142,
+      "saliency",
+      45.2
+     ]
+    ]
+   }
   },
   {
    "id": "s12",
@@ -630,8 +2166,41 @@
    "mp4": "media/s12.mp4",
    "webm": "media/s12.webm",
    "poster": "media/s12.jpg",
-   "w": 480,
-   "h": 270
+   "w": 270,
+   "h": 270,
+   "srcW": 480,
+   "srcH": 270,
+   "framing": {
+    "shots": 5,
+    "method": "faces+persons+saliency",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      56.5
+     ],
+     [
+      32,
+      "saliency",
+      39.6
+     ],
+     [
+      56,
+      "saliency",
+      39.4
+     ],
+     [
+      72,
+      "saliency",
+      40.2
+     ],
+     [
+      99,
+      "persons",
+      64.0
+     ]
+    ]
+   }
   },
   {
    "id": "s13",
@@ -643,8 +2212,41 @@
    "mp4": "media/s13.mp4",
    "webm": "media/s13.webm",
    "poster": "media/s13.jpg",
-   "w": 474,
-   "h": 266
+   "w": 266,
+   "h": 266,
+   "srcW": 474,
+   "srcH": 266,
+   "framing": {
+    "shots": 4,
+    "method": "manual",
+    "per_shot": [
+     [
+      0,
+      "manual",
+      50.0
+     ],
+     [
+      88,
+      "manual",
+      50.0
+     ],
+     [
+      103,
+      "manual",
+      50.0
+     ],
+     [
+      138,
+      "manual",
+      50.0
+     ]
+    ]
+   },
+   "focus": [
+    50,
+    50
+   ],
+   "focus_note": "square artwork centred in a blurred 16:9 frame"
   },
   {
    "id": "s14",
@@ -656,8 +2258,21 @@
    "mp4": "media/s14.mp4",
    "webm": "media/s14.webm",
    "poster": "media/s14.jpg",
-   "w": 292,
-   "h": 282
+   "w": 282,
+   "h": 282,
+   "srcW": 292,
+   "srcH": 282,
+   "framing": {
+    "shots": 1,
+    "method": "persons",
+    "per_shot": [
+     [
+      0,
+      "persons",
+      49.7
+     ]
+    ]
+   }
   },
   {
    "id": "s15",
@@ -669,8 +2284,61 @@
    "mp4": "media/s15.mp4",
    "webm": "media/s15.webm",
    "poster": "media/s15.jpg",
-   "w": 480,
-   "h": 288
+   "w": 288,
+   "h": 288,
+   "srcW": 480,
+   "srcH": 288,
+   "framing": {
+    "shots": 9,
+    "method": "faces+saliency",
+    "per_shot": [
+     [
+      0,
+      "faces",
+      70.0
+     ],
+     [
+      6,
+      "faces",
+      70.0
+     ],
+     [
+      12,
+      "faces",
+      70.0
+     ],
+     [
+      18,
+      "faces",
+      70.0
+     ],
+     [
+      24,
+      "faces",
+      70.0
+     ],
+     [
+      30,
+      "faces",
+      70.0
+     ],
+     [
+      36,
+      "faces",
+      70.0
+     ],
+     [
+      42,
+      "faces",
+      30.0
+     ],
+     [
+      53,
+      "saliency",
+      50.0
+     ]
+    ]
+   }
   },
   {
    "id": "s16",
@@ -683,7 +2351,13 @@
    "webm": "media/s16.webm",
    "poster": "media/s16.jpg",
    "w": 480,
-   "h": 480
+   "h": 480,
+   "srcW": 480,
+   "srcH": 480,
+   "framing": {
+    "method": "square-source",
+    "shots": 1
+   }
   },
   {
    "id": "s17",
@@ -695,8 +2369,21 @@
    "mp4": "media/s17.mp4",
    "webm": "media/s17.webm",
    "poster": "media/s17.jpg",
-   "w": 480,
-   "h": 288
+   "w": 288,
+   "h": 288,
+   "srcW": 480,
+   "srcH": 288,
+   "framing": {
+    "shots": 1,
+    "method": "saliency",
+    "per_shot": [
+     [
+      0,
+      "saliency",
+      49.8
+     ]
+    ]
+   }
   },
   {
    "id": "s18",
@@ -708,8 +2395,21 @@
    "mp4": "media/s18.mp4",
    "webm": "media/s18.webm",
    "poster": "media/s18.jpg",
-   "w": 312,
-   "h": 292
+   "w": 292,
+   "h": 292,
+   "srcW": 312,
+   "srcH": 292,
+   "framing": {
+    "shots": 1,
+    "method": "saliency",
+    "per_shot": [
+     [
+      0,
+      "saliency",
+      46.8
+     ]
+    ]
+   }
   },
   {
    "id": "s19",
@@ -722,7 +2422,20 @@
    "webm": "media/s19.webm",
    "poster": "media/s19.jpg",
    "w": 292,
-   "h": 310
+   "h": 292,
+   "srcW": 292,
+   "srcH": 310,
+   "framing": {
+    "shots": 1,
+    "method": "saliency",
+    "per_shot": [
+     [
+      0,
+      "saliency",
+      50.0
+     ]
+    ]
+   }
   },
   {
    "id": "s20",
@@ -734,8 +2447,21 @@
    "mp4": "media/s20.mp4",
    "webm": "media/s20.webm",
    "poster": "media/s20.jpg",
-   "w": 312,
-   "h": 294
+   "w": 294,
+   "h": 294,
+   "srcW": 312,
+   "srcH": 294,
+   "framing": {
+    "shots": 1,
+    "method": "saliency",
+    "per_shot": [
+     [
+      0,
+      "saliency",
+      49.4
+     ]
+    ]
+   }
   },
   {
    "id": "s21",
@@ -747,8 +2473,26 @@
    "mp4": "media/s21.mp4",
    "webm": "media/s21.webm",
    "poster": "media/s21.jpg",
-   "w": 480,
-   "h": 270
+   "w": 270,
+   "h": 270,
+   "srcW": 480,
+   "srcH": 270,
+   "framing": {
+    "shots": 1,
+    "method": "manual",
+    "per_shot": [
+     [
+      0,
+      "manual",
+      50.0
+     ]
+    ]
+   },
+   "focus": [
+    50,
+    50
+   ],
+   "focus_note": "square artwork centred in a blurred 16:9 frame"
   },
   {
    "id": "s22",
@@ -762,7 +2506,13 @@
    "poster": "media/s22.jpg",
    "full": "media/full/s22.mp4",
    "w": 480,
-   "h": 480
+   "h": 480,
+   "srcW": 480,
+   "srcH": 480,
+   "framing": {
+    "method": "square-source",
+    "shots": 1
+   }
   },
   {
    "id": "s23",
@@ -775,7 +2525,13 @@
    "webm": "media/s23.webm",
    "poster": "media/s23.jpg",
    "w": 480,
-   "h": 480
+   "h": 480,
+   "srcW": 480,
+   "srcH": 480,
+   "framing": {
+    "method": "square-source",
+    "shots": 1
+   }
   },
   {
    "id": "s24",
@@ -789,7 +2545,13 @@
    "poster": "media/s24.jpg",
    "full": "media/full/s24.mp4",
    "w": 480,
-   "h": 480
+   "h": 480,
+   "srcW": 480,
+   "srcH": 480,
+   "framing": {
+    "method": "square-source",
+    "shots": 1
+   }
   },
   {
    "id": "c10",
@@ -803,7 +2565,13 @@
    "poster": "media/c10.jpg",
    "full": "media/full/c10.mp4",
    "w": 480,
-   "h": 480
+   "h": 480,
+   "srcW": 480,
+   "srcH": 480,
+   "framing": {
+    "method": "square-source",
+    "shots": 1
+   }
   },
   {
    "id": "c13",
@@ -817,7 +2585,20 @@
    "poster": "media/c13.jpg",
    "full": "media/full/c13.mp4",
    "w": 480,
-   "h": 852
+   "h": 480,
+   "srcW": 480,
+   "srcH": 852,
+   "framing": {
+    "shots": 1,
+    "method": "persons",
+    "per_shot": [
+     [
+      0,
+      "persons",
+      58.7
+     ]
+    ]
+   }
   },
   {
    "id": "c19",
@@ -831,7 +2612,13 @@
    "poster": "media/c19.jpg",
    "full": "media/full/c19.mp4",
    "w": 480,
-   "h": 480
+   "h": 480,
+   "srcW": 480,
+   "srcH": 480,
+   "framing": {
+    "method": "square-source",
+    "shots": 1
+   }
   },
   {
    "id": "c20",
@@ -841,7 +2628,18 @@
    "score": true,
    "source": "still",
    "poster": "media/c20.jpg",
-   "still_reason": "Vimeo needs login"
+   "still_reason": "Vimeo needs login",
+   "framing": {
+    "shots": 1,
+    "method": "saliency",
+    "per_shot": [
+     [
+      0,
+      "saliency",
+      45.9
+     ]
+    ]
+   }
   },
   {
    "id": "c21",
@@ -853,8 +2651,31 @@
    "mp4": "media/c21.mp4",
    "webm": "media/c21.webm",
    "poster": "media/c21.jpg",
-   "w": 312,
-   "h": 294
+   "w": 294,
+   "h": 294,
+   "srcW": 312,
+   "srcH": 294,
+   "framing": {
+    "shots": 3,
+    "method": "persons+saliency",
+    "per_shot": [
+     [
+      0,
+      "saliency",
+      52.9
+     ],
+     [
+      37,
+      "persons",
+      47.1
+     ],
+     [
+      95,
+      "saliency",
+      47.1
+     ]
+    ]
+   }
   },
   {
    "id": "c22",
@@ -864,7 +2685,18 @@
    "score": true,
    "source": "still",
    "poster": "media/c22.jpg",
-   "still_reason": "Vimeo needs login"
+   "still_reason": "Vimeo needs login",
+   "framing": {
+    "shots": 1,
+    "method": "saliency",
+    "per_shot": [
+     [
+      0,
+      "saliency",
+      49.5
+     ]
+    ]
+   }
   }
  ]
 }
