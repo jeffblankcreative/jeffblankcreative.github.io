@@ -1,0 +1,1 @@
+These are the v4 logo explorations. They're a preview only and are not linked from the live site. All fonts are SIL OFL 1.1 latin woff2 files from Google Fonts, with license texts in this folder. Rules are in logo-v4.css, and shoot_v4.py renders preview/v4/.

@@ -1,0 +1,13 @@
+/* Logo option previews: NOT linked from the live site. Inject one block to try a wordmark; the role line and tabs stay in the v1 sans. */
+@font-face{font-family:"Londrina Solid";src:url(LondrinaSolid-Black.woff2) format("woff2");font-weight:900;font-display:swap}
+@font-face{font-family:"Jost";src:url(Jost-ExtraBold.woff2) format("woff2");font-weight:800;font-display:swap}
+@font-face{font-family:"Bodoni Moda";src:url(BodoniModa-28-SemiBold.woff2) format("woff2");font-weight:600;font-display:swap}
+@font-face{font-family:"Major Mono Display";src:url(MajorMonoDisplay-Regular.woff2) format("woff2");font-weight:400;font-display:swap}
+/* 1 — Charade / Saul Bass cut-paper */
+html[data-logo="1"] .name{font-family:"Londrina Solid",var(--sans);font-weight:900;font-size:clamp(28px,2.9vw,42px);letter-spacing:.015em;line-height:.9}
+/* 2 — Kubrick, Futura-style geometric */
+html[data-logo="2"] .name{font-family:"Jost",var(--sans);font-weight:800;font-size:clamp(25px,2.5vw,36px);letter-spacing:-.01em;line-height:.95;margin-bottom:5px}
+/* 3 — Fellini 8½, Italian poster Didone */
+html[data-logo="3"] .name{font-family:"Bodoni Moda",serif;font-weight:600;font-size:clamp(26px,2.6vw,38px);letter-spacing:.09em;line-height:1}
+/* 4 — wildcard: Major Mono Display, mixed hairline/heavy letters */
+html[data-logo="4"] .name{font-family:"Major Mono Display",monospace;font-weight:400;font-size:clamp(24px,2.4vw,34px);letter-spacing:.02em;word-spacing:-.45em;line-height:1;text-transform:none}

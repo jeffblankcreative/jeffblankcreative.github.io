@@ -1,0 +1,44 @@
+/* v4 logo explorations: preview only, NOT linked from the live site. Apply a class to .name (e.g. class="name v-3A"). Letter-level variants need each letter wrapped in <span class=ch> (see shoot_v4.py). */
+@font-face{font-family:"Londrina Solid";src:url(LondrinaSolid-Black.woff2) format("woff2");font-weight:900;font-display:swap}
+@font-face{font-family:"Jost";src:url(Jost-Black.woff2) format("woff2");font-weight:900;font-display:swap}
+@font-face{font-family:"Jost";src:url(Jost-ExtraBold.woff2) format("woff2");font-weight:800;font-display:swap}
+@font-face{font-family:"Jost";src:url(Jost-Bold.woff2) format("woff2");font-weight:700;font-display:swap}
+@font-face{font-family:"Passion One";src:url(PassionOne-Regular.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"League Spartan";src:url(LeagueSpartan-Black.woff2) format("woff2");font-weight:900;font-display:swap}
+@font-face{font-family:"Francois One";src:url(FrancoisOne-Regular.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Staatliches";src:url(Staatliches-Regular.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Oswald";src:url(Oswald-Bold.woff2) format("woff2");font-weight:700;font-display:swap}
+@font-face{font-family:"Yanone Kaffeesatz";src:url(YanoneKaffeesatz-Bold.woff2) format("woff2");font-weight:700;font-display:swap}
+@font-face{font-family:"Mouse Memoirs";src:url(MouseMemoirs-Regular.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"League Gothic";src:url(LeagueGothic-Regular.woff2) format("woff2");font-weight:400;font-display:swap}
+.name[class*="v-"]{--base:clamp(26px,2.7vw,40px);font-size:calc(var(--base) * var(--k,1));line-height:.95;text-transform:uppercase;white-space:nowrap}
+.ch{display:inline-block}
+/* branch 1: cut-paper 60s */
+.v-1A{font-family:"Londrina Solid";font-weight:900;--k:1.05;letter-spacing:.07em}
+.v-1B{font-family:"Londrina Solid";font-weight:900;--k:1.3;letter-spacing:.01em;transform:scaleX(.84);transform-origin:left}
+.v-1C{font-family:"Passion One";font-weight:400;--k:1.2;letter-spacing:.025em}
+.v-1D{font-family:"Londrina Solid";font-weight:900;--k:1.1;letter-spacing:.03em}
+/* branch 2: Kubrick / Futura */
+.v-2A{font-family:"Jost";font-weight:900;--k:.95;letter-spacing:-.035em}
+.v-2B{font-family:"Jost";font-weight:700;--k:.78;letter-spacing:.3em;word-spacing:-.2em}
+.v-2C{font-family:"Jost";font-weight:800;--k:.95;letter-spacing:-.01em}
+.v-2C .ch:nth-child(4){margin-left:-.13em}          /* FF: second F tucked in so the arms meet, a one-off ligature */
+.v-2D{font-family:"League Spartan";font-weight:900;--k:.95;letter-spacing:-.025em}
+/* hybrid: geometric letters cut from paper */
+.v-H1{font-family:"Jost";font-weight:800;--k:.95;letter-spacing:.01em}
+/* branch 3: Milan-like vintage heavy sans */
+.v-3A{font-family:"Francois One";font-weight:400;--k:1.12;letter-spacing:.06em}
+.v-3B{font-family:"Staatliches";font-weight:400;--k:1.22;letter-spacing:.04em}
+.v-3C{font-family:"Oswald";font-weight:700;--k:1.08;letter-spacing:.03em}
+/* branch 4: Letterpress-like tall condensed hand-made */
+.v-4A{font-family:"Yanone Kaffeesatz";font-weight:700;--k:1.4;letter-spacing:.035em}
+.v-4B{font-family:"Mouse Memoirs";font-weight:400;--k:1.45;letter-spacing:.04em}
+.v-4C{font-family:"League Gothic";font-weight:400;--k:1.5;letter-spacing:.05em}
+/* cut-paper offsets: each letter nudged a hair, like pasted-down paper */
+.v-1D .ch{transform:rotate(var(--r,0deg)) translateY(var(--y,0))}
+.v-H1 .ch{transform:rotate(calc(var(--r,0deg) * .5)) translateY(calc(var(--y,0em) * .6))}
+.ch:nth-child(1){--r:-1.4deg;--y:.015em}.ch:nth-child(2){--r:1deg;--y:-.02em}.ch:nth-child(3){--r:-.5deg;--y:.01em}.ch:nth-child(4){--r:1.3deg;--y:.02em}
+.ch:nth-child(6){--r:.8deg;--y:-.015em}.ch:nth-child(7){--r:-1.1deg;--y:.02em}.ch:nth-child(8){--r:1.2deg;--y:-.01em}.ch:nth-child(9){--r:-.7deg;--y:.015em}.ch:nth-child(10){--r:1deg;--y:-.02em}
+/* Milan-style secondary line: small bold letterspaced caps */
+.role.bold-caps{font-weight:700;letter-spacing:.22em;color:var(--ink);font-size:10.5px}
+.v-2A,.v-2B,.v-2C,.v-H1{margin-bottom:.14em}
